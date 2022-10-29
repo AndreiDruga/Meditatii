@@ -1,5 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react";
-import LoginPage from "./components/Login";
+import "./main.css"
 
 export default function App() {
   return (
