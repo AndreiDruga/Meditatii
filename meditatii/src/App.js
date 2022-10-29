@@ -1,18 +1,12 @@
-import "./App.css";
 import { BrowserRouter, Routes, Route } from "react";
-import LoginPage from "./components/Login"
+import LoginPage from "./components/Login";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<LoginPage />}/>
-        </Routes>
-      </BrowserRouter>
-      , document.getElementById("root")
+    <div>
+      <h1>Bookkeeper1!</h1>
     </div>
   );
 }
 
-export default App;
+
