@@ -1,0 +1,14 @@
+.containerM{
+justify-content: center;
+display: flex;
+}
+body {
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.image{
+  width: 100px;
+  height: 100px;
+}
+
